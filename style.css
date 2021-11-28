@@ -1,0 +1,136 @@
+
+*{
+	
+	margin : 0;
+	padding : 0;
+	font-family : georgia, verdana, arial, sans-serif;
+	
+}
+/* Réglages de la bannière*/
+.enseigne{
+	width: 100%;
+}
+nav.menu-nav ul li.btn{
+
+	display : inline ;
+	list-style-type : none ;
+	padding-left : 10px;
+	
+}
+
+nav.menu-nav ul li.btn a{
+
+	color : white;
+	text-decoration :none;
+}
+
+nav.menu-nav ul li.btn:hover a{
+
+	color : red;
+	background-color : black;
+	transition : 0.3s all;
+}
+
+nav.menu-nav{
+	padding : 5px;
+	background-color : black;
+	color: white;
+	font-size : 20px;
+	text-align : center;
+	
+}
+
+/*positionement de l'écriture*/
+
+#contenu{
+	display : block;
+	text-align : center;
+	width : 100%;
+	color: white;
+}
+
+body{
+	background: #0D1D2C;
+	
+	margin: 0;
+}
+/*Onglet téléphonie*/
+.réparation p, .accessoirs p, .vente p{
+	text-align : center;
+	padding : 30px;
+	height : 300px;
+	font-size : 20px;
+}
+
+.réparation, .accessoirs, .vente{
+	height : 350px;
+}
+
+/*Onglet cordonnerie*/
+.réparation_chaussure p, .produits_chaussure p, .couture p{
+	text-align : center;
+	padding : 50px;
+	height : 300px;
+	font-size : 20px;
+}
+
+.réparation_chaussure img, .produits_chaussure img, .couture img{
+	padding: 15px;
+}
+
+
+
+/*Onglet clés*/
+.clés_plates p, .clés_voitures p{
+	text-align : center;
+	padding : 30px;
+	height : 300px;
+	margin-top: 100px;
+	font-size : 20px;
+}
+/*Autres services*/
+.badges p, .gravure p, .photocopie p{
+	text-align: center;
+	padding: 30px;
+	height:  300px;
+	margin-top: 100px;
+	font-size: 20px;
+}
+
+.badges img,.gravure img, .photocopie img{
+	padding: 15px;
+}
+
+/*page d'acceuil*/
+
+.carte{
+	margin-top : 100px;
+	width : 100%;
+	margin-bottom :0px;
+}
+
+.adresse p{
+		margin-top : 100px;
+		font-size : 40px;
+		color: white;
+		text-align: center;
+}
+
+.adresse a{
+	color: skyblue;
+}
+
+
+
+footer{
+	position: fixed;
+	text-align : center;
+	color : white;
+	background-color : black;
+	bottom : 0;
+	left : 0;
+	right : 0;
+	width : 100%
+}
+
+
